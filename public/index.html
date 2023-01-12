@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="css/spinner.css" />
 
     <script src="js/main.js" defer></script>
-    <title>OpenAI Image Genrator</title>
+    <title>Text2Image</title>
   </head>
   <body>
     <header>
       <div class="navbar">
         <div class="logo">
-          <h2>OpenAI Image Genrator</h2>
+          <h3>AI Image Genrator</h3>
         </div>
         <div class="nav-links">
           <ul>
             <li>
               <a href="https://beta.openai.com/docs" target="_blank"
-                >OpenAI API Docs</a
+                >OpenAI Docs</a
               >
             </li>
           </ul>
@@ -31,9 +31,24 @@
     <main>
       <section class="showcase">
         <form id="image-form">
-          <h1>Describe An Image</h1>
+          <h1>Text2Image</h1>
+          <br>
+          <h2>Example Usage</h2>
+          <br>
+          <ul>
+            <li>
+              Superman driving a tesla in a temple, Selfie
+            </li>
+            <li>
+              Mickey Mouse with silver hair eating hot wings in a bar, Book cover
+            </li>
+            <li>
+              Cleopatra dressed as a scientist holding a phone in Easter Island, 1960s Cartoon
+            </li>
+          </ul>
+          <br>
           <div class="form-control">
-            <input type="text" id="prompt" placeholder="Enter Text" />
+            <input type="text" id="prompt" placeholder="Describe an image" />
           </div>
           <!-- size -->
           <div class="form-control">
